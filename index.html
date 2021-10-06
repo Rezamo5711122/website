@@ -1,134 +1,493 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<title>Login V16</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="ThemeStarz">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<title>Reza Moghaddam</title>
+
 </head>
-<body>
-	
-	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-			<div class="wrap-login100 p-t-30 p-b-50">
-				<span class="login100-form-title p-b-41">
-					Account Login
-				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5">
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="ts-page-wrapper" id="page-top">
+        <!--NAVIGATION ******************************************************************************************-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+                <!--end navbar-brand-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--end navbar-toggler-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                        <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-services">Services</a>
+                        <a class="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
+                        <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
+                    </div>
+                    <!--end navbar-nav-->
+                </div>
+                <!--end collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end navbar-->
+        <!--*********************************************************************************************************-->
+        <!--************ HERO ***************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <div id="ts-hero" class="ts-animate-hero-items">
 
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" id="usernameText" name="username" placeholder="User name">
-						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
-					</div>
+            <!--HERO CONTENT ****************************************************************************************-->
+            <div class="container position-relative h-100 ts-align__vertical">
+                <div class="row w-100">
+                    <div class="col-md-8">
+                        <!--SOCIAL ICONS-->
+                        <!--TITLE -->
+                        <h1>I am Reza Moghaddam</h1>
+                        <h1 class="ts-bubble-border">
+                            <span class="ts-title-rotate">
+                                <span class="active">Programmer</span>
+                                <span>Editor</span>
+                                <span>Student</span>
+                                <span>Develop</span>
+                            </span>
+                        </h1>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" id="passwordText" name="pass" placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
-					</div>
+                    </div>
+                    <!--end col-md-8-->
+                </div>
+                <!--end row-->
+                <a href="#my-services" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
+                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                    <span class="ts-hidden ts-circle__sm rounded-0">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                </a>
 
-					<div class="container-login100-form-btn m-t-32">
-						<button class="login100-form-btn">
-							Login
-						</button>
-					</div>
+            </div>
+            <!--end container-->
+            <!--END HERO CONTENT ************************************************************************************-->
 
-				</form>
-			</div>
-		</div>
-	</div>
-	
+            <!--HERO BACKGROUND *************************************************************************************-->
+            <div class="ts-background">
+                <div class="ts-background-image" data-bg-image="assets/img/bg-hero.jpg"></div>
+            </div>
+            <!--END HERO BACKGROUND *********************************************************************************-->
 
-	<div id="dropDownSelect1"></div>
-	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+        </div>
+        <!--end #hero-->
 
-	<script>
-		function go(){
-			window.location.href = "https://engage.shatel.com/b/rez-g6x-zol-nvv";
-		}
+        <!--*********************************************************************************************************-->
+        <!--************ CONTENT ************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <main id="ts-content">
 
-		function login(){
-			 var username = document.getElementById('usernameText').value;
-			 var password = document.getElementById('passwordText').value;
-			//  var all = [7][2];
+            <!--MY SERVICES ***********************************************************************************-->
+            <section id="my-services" class="ts-block ts-xs-text-center pb-0">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>My Services</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <div class="ts-item" data-animate="ts-fadeInUp">
+                                <div class="ts-item-content">
+                                    <div class="ts-item-header">
+                                        <figure class="icon">
+                                            <img src="assets/img/icon-brushes.png" alt="">
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body">
+                                        <h4>programmer</h4>
+                                        <p class="mb-0">
+                                            Fluent in Python, C ++, Html
+                                        </p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                    <div class="ts-item-footer">
+                                        </a>
+                                    </div>
+                                    <!--end ts-item-footer-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".1s">
+                                <div class="ts-item-content">
+                                    <div class="ts-item-header">
+                                        <figure class="icon">
+                                            <img src="assets/img/icon-camera.png" alt="">
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body">
+                                        <h4>ISDL</h4>
+                                        <p class="mb-0">
+                                            Has ICDL 1 and 2
+                                        </p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                    <div class="ts-item-footer">
+                                        </a>
+                                    </div>
+                                    <!--end ts-item-footer-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".2s">
+                                <div class="ts-item-content">
+                                    <div class="ts-item-header">
+                                        <figure class="icon">
+                                            <img src="assets/img/icon-video.png" alt="">
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body">
+                                        <h4>Student</h4>
+                                        <p class="mb-0">
+                                            Eleventh grade math and physics student
+                                        </p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                    <div class="ts-item-footer">
+                                        </a>
+                                    </div>
+                                    <!--end ts-item-footer-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+                        <!--end col-xl-4-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+                        <!--end col-xl-4-->
 
-			//  all[0][0] = "rm";
-			//  all[0][1] = "2475";
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END MY SERVICES *************************************************************************************-->
 
-			//  all[1][0] = "ha";
-			//  all[1][1] = "4673";
+            <section id="about-me" class="ts-block pb-4">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>About Me</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row ts-align__vertical">
+                        <div class="col-md-6">
+                            <img src="assets/img/img-man-looking.jpg" alt="" class="mw-100 mb-5">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="ts-bubble-border">Hi There</h4>
+                            <p>
+                                11th grade math and physics student We live in Tabriz
+                            </p>
+                            <dl class="ts-column-count-2">
+                                <dt>Name:</dt>
+                                <dd>Reza Moghaddam</dd>
+                                <dt>Phone:</dt>
+                                <dd>+98 09052569773</dd>
+                                <dt>Email:</dt>
+                                <dd>moghadamr231@gmail.com</dd>
+                                <dt>Twitter:</dt>
+                                <dd>RezaMog10688225</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+            </section>
+        </main>
+        <!--end #content-->
 
-			//  all[2][0] = "msh";
-			//  all[2][1] = "5496";
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <footer id="ts-footer" class="mt-5">
 
-			//  all[3][0] = "hs";
-			//  all[3][1] = "2748";
+            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg" data-bg-image-opacity=".1">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2 class="ts-bubble-border">Get In Touch</h2>
+                    </div>
+                    <div class="row ts-xs-text-center ">
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp">
+                            <img src="assets/img/icon-pin.png" class="mb-4" alt="">
+                            <h5>City</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">Tabriz</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".1s">
+                            <img src="assets/img/icon-phone-02.png" class="mb-4" alt="">
+                            <h5>Phone</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">+98 09052569773</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                            <img src="assets/img/icon-envelope.png" class="mb-4" alt="">
+                            <h5>Email</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">moghadamr231@gmail.com</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".3s">
+                            <img src="assets/img/icon-talk-bubble.png" class="mb-4" alt="">
+                            <h5>Facebook Chat</h5>
+                            <div class="ts-opacity__50">
+                                <figure>mellatweb_official</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                    <!--end row-->
 
-			//  all[4][0] = "an";
-			//  all[4][1] = "5172";
+                    <div class="pt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Let’s Connect</h3>
+                                <div class="ts-column-count-sm-2">
+                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
+                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <link rel="stylesheet" href="">
+                                    </span>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <!--end link-->
+                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
+                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
+                                        <i class="fab fa-twitter"></i>
+                                    </span>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <!--end link-->
+                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
+                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
+                                        <i class="fab fa-instagram"></i>
+                                    </span>
+                                        <span>Instagram</span>
+                                    </a>
 
-			//  all[5][0] = "mr";
-			//  all[5][1] = "3289";
+                                    <!--end link-->
+                                </div>
+                            </div>
+                            <!--end col-md-4-->
+                            <div class="col-md-8">
+                                <h3>Send Me a Message</h3>
+                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email" data-php-path="assets/php/email.php">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-name">Name *</label>
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Name" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Email *</label>
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Email" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group">
+                                        <label for="form-contact-subject">Subject *</label>
+                                        <input type="email" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form-contact-message">Message *</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Message" required></textarea>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-12 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn btn-primary float-right ts-btn-arrow" id="form-contact-submit">Send a Message</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status"></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+            <!--end #contact-->
 
-			//  all[6][0] = "ap";
-			//  all[6][1] = "3485";
+            <div class="text-dark bg-white">
+                <div class="container py-3 position-relative">
+                    <small>© 2021 <a href="moghadamr213@gmail.com">Raza Moghaddam<a/>, All Rights Reserved</small>
+                    <a href="#page-top" class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
+                        <i class="fa fa-arrow-up text-white"></i>
+                    </a>
+                </div>
+            </div>
 
-			var all = [
-				["rm", "2475"],
-				["ha", "4673"],
-				["msh", "5496"],
-				["hs", "2748"],
-				["an", "5172"],
-				["mr", "3289"],
-				["ap", "3485"]
-			]
+        </footer>
+        <!--end #footer-->
+    </div>
+    <!--end page-->
 
-			 for(var i = 0; i < 7; i++){
-			 	if(username == all[i][0] && password == all[i][1]){
-					 go();
-					 return;
-			 	}
-			 }
-			 alert("incorrect");
+    <!-- Modal -->
+    <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content border-0 rounded-0">
+                <div class="modal-header bg-light px-5 pt-0 pb-5">
+                    <div class="ts-title mb-0">
+                        <figure class="ts-circle__md bg-dark rounded-0">
+                            <img src="assets/img/icon-brushes.png" alt="">
+                        </figure>
+                        <h4 class="mb-0">Web Design</h4>
+                    </div>
 
-		}
-	</script>
+                    <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-2" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-5">
+                    <h5 class="mb-4">Latest Works</h5>
+                    <div class="owl-carousel" data-owl-dots="1">
+                        <div class="slide">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/img-work-detail-01.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="mb-3">Creative Lights</h4>
+                                        <p>
+                                            In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus
+                                            fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est
+                                            ultricies.
+                                        </p>
+                                        <a href="#" class="mb-4 text-dark d-block">
+                                            <i class="fa fa-globe ts-opacity__50 mr-2"></i>
+                                            www.example.com
+                                        </a>
+                                        <hr>
+                                        <h6>Services Included</h6>
+                                        <ul class="list-unstyled ts-opacity__50">
+                                            <li>Design</li>
+                                            <li>Coding</li>
+                                            <li>SEO Optimization</li>
+                                            <li>Hosting</li>
+                                        </ul>
+                                    </div>
+                                    <!--end col-md-8-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end container-fluid-->
+                        </div>
+                        <!--end slide-->
+                        <div class="slide">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/img-work-detail-02.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="mb-3">Wood Ceiling</h4>
+                                        <p>
+                                            Phasellus volutpat velit nec purus elementum feugiat. Nunc feugiat fringilla turpis.
+                                            Nam sed facilisis sem. Vestibulum vitae orci nec purus fringilla condimentum.
+                                            Pellentesque id augue rhoncus, finibus sapien ut, commodo eros. Maecenas in nibh
+                                            augue. Nunc rutrum blandit massa eu aliquet. Nulla facilisi. Aenean luctus ipsum
+                                            in orci sagittis auctor vel sit amet ex
+                                        </p>
+                                        <a href="#" class="mb-4 text-dark d-block">
+                                            <i class="fa fa-globe ts-opacity__50 mr-2"></i>
+                                            www.example.com
+                                        </a>
+                                        <hr>
+                                        <h6>Services Included</h6>
+                                        <ul class="list-unstyled ts-opacity__50">
+                                            <li>Design</li>
+                                            <li>Coding</li>
+                                            <li>SEO Optimization</li>
+                                            <li>Hosting</li>
+                                        </ul>
+                                    </div>
+                                    <!--end col-md-8-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end container-fluid-->
+                        </div>
+                        <!--end slide-->
+                    </div>
+                    <!--end owl-carousel-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end modal-dialog-->
+    </div>
+    <!--end modal-->
+
+	<script src="assets/js/custom.hero.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 </body>
 </html>
